@@ -1,5 +1,3 @@
-import os 
-os.environ['TF_USE_LEGACY_KERAS'] = '1'  # Ensure compatibility with certain TensorFlow versions
 from pkg import app 
 from flask import request, jsonify, render_template
 import tf_keras as keras

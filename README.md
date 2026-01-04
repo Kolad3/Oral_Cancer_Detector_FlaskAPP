@@ -38,3 +38,11 @@ THROAT_AI/
     │   └── model.h5
     └── templates/        # Frontend (HTML)
         └── index.html
+## 💻 Installation
+
+Follow these steps to set up the project locally.
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/Kolad3/Oral_Cancer_Detector_FlaskAPP.git](https://github.com/Kolad3/Oral_Cancer_Detector_FlaskAPP.git)
+cd Oral_Cancer_Detector_FlaskAPP

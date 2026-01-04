@@ -41,8 +41,6 @@ THROAT_AI/
 ```
 ---
 
-## ✨ Key Features
-
 ## 💻 Installation
 
 Follow these steps to set up the project locally.
@@ -52,6 +50,13 @@ Follow these steps to set up the project locally.
 git clone [https://github.com/Kolad3/Oral_Cancer_Detector_FlaskAPP.git](https://github.com/Kolad3/Oral_Cancer_Detector_FlaskAPP.git)
 cd Oral_Cancer_Detector_FlaskAPP
 ```
+### 2. Create a Virtual Environment
+It is recommended to use a virtual environment to keep dependencies isolated.
 
+Windows:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
 ---
 

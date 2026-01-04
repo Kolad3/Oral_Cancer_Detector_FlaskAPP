@@ -83,7 +83,7 @@ The server will start at ``` http://127.0.0.1:5000/```
 
 ---
 
-```markdown
+```markdown```
 ## 🚀 How It Works
 ![Application Flowchart](assets/flowchart.png)
 

@@ -37,7 +37,12 @@ THROAT_AI/
     ├── models/           # Stores the trained .h5 model
     │   └── model.h5
     └── templates/        # Frontend (HTML)
-        └── index.html
+        └── index.html 
+```
+---
+
+## ✨ Key Features
+
 ## 💻 Installation
 
 Follow these steps to set up the project locally.
@@ -46,3 +51,7 @@ Follow these steps to set up the project locally.
 ```bash
 git clone [https://github.com/Kolad3/Oral_Cancer_Detector_FlaskAPP.git](https://github.com/Kolad3/Oral_Cancer_Detector_FlaskAPP.git)
 cd Oral_Cancer_Detector_FlaskAPP
+```
+
+---
+

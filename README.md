@@ -14,7 +14,6 @@ The application features a modern, responsive "Glassmorphism" UI and a robust Fl
 ## ✨ Key Features
 
 * **Real-Time AI Analysis:** Instant classification of "Healthy" vs. "Cancerous" tissue.
-* **Smart Security Checks:** Automatically rejects non-medical images (e.g., color photos of people or objects) using HSV saturation analysis.
 * **Confidence Thresholding:** Returns an "Inconclusive" result if the AI's confidence score drops below 70%, ensuring medical safety.
 * **Microservice Architecture:** Clean separation of concerns with a modular package structure (`pkg`, `routes`, `utils`).
 * **Responsive UI:** A drag-and-drop interface built with Vanilla JS and CSS3 that provides scanning animations and dynamic result visualization.

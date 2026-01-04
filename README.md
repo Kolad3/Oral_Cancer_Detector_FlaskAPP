@@ -73,6 +73,13 @@ pip install -r requirements.txt
 ### 4. Setup the AI Model
 * **Download:** Place your trained model file (e.g., model.h5) into the project folder.
 
-* **Location:** Ensure it is saved at ```text pkg/models/model.h5.```
+* **Location:** Ensure it is saved at ``` pkg/models/model.h5.```
+
+### 5. Run the Application
+```bash
+python app.py
+```
+The server will start at ``` http://127.0.0.1:5000/```
+
 ---
 

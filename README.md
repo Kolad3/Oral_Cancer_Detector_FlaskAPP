@@ -1,0 +1,41 @@
+# 🩺 NeuroScan: AI-Powered Throat X-Ray Analysis
+
+![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
+![Framework](https://img.shields.io/badge/Flask-Microservice-green.svg)
+![AI](https://img.shields.io/badge/TensorFlow-Keras-orange.svg)
+![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
+
+**NeuroScan** is a medical diagnostic microservice designed to assist in the early detection of throat cancer. It uses a Convolutional Neural Network (CNN) to analyze X-ray images and identify carcinogenic tissue patterns with high precision.
+
+The application features a modern, responsive "Glassmorphism" UI and a robust Flask backend that acts as an inference API.
+
+---
+
+## ✨ Key Features
+
+* **Real-Time AI Analysis:** Instant classification of "Healthy" vs. "Cancerous" tissue.
+* **Smart Security Checks:** Automatically rejects non-medical images (e.g., color photos of people or objects) using HSV saturation analysis.
+* **Confidence Thresholding:** Returns an "Inconclusive" result if the AI's confidence score drops below 70%, ensuring medical safety.
+* **Microservice Architecture:** Clean separation of concerns with a modular package structure (`pkg`, `routes`, `utils`).
+* **Responsive UI:** A drag-and-drop interface built with Vanilla JS and CSS3 that provides scanning animations and dynamic result visualization.
+
+---
+
+## 🛠️ Architecture
+
+The project follows a scalable Flask application factory pattern:
+
+```text
+THROAT_AI/
+│
+├── app.py                # Application Entry Point (Sets Env Variables)
+├── config.py             # Configuration (Paths & Settings)
+│
+└── pkg/                  # Main Package
+    ├── __init__.py       # App Factory
+    ├── routes.py         # API Endpoints (The "Traffic Controller")
+    ├── utils.py          # AI Logic, Model Loading, & Image Processing
+    ├── models/           # Stores the trained .h5 model
+    │   └── model.h5
+    └── templates/        # Frontend (HTML)
+        └── index.html
